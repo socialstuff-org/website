@@ -1,1 +1,130 @@
-//
+// GLOBAL
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  background-color: #333333 !important;
+}
+
+.spacer {
+  height: 60px;
+}
+
+// COLORS
+$elderberry: #2D142D;
+$frenchRasperry: #C72C41;
+$boysenberry: #801336;
+
+// APPLY BACKGROUND COLOR
+.bg-elderberry {
+  background-color: $elderberry;
+  color: #ffffff;
+}
+
+// HEADER
+
+nav {
+  background-color: #2D142D !important;
+}
+
+#logo {
+  height: 40px !important;
+  width: auto;
+  margin-left: 20px;
+}
+
+// UPPER WRAPPER
+#upper-wrapper {
+  width: 100%;
+}
+
+// INTRO SECTION
+
+#intro-section {
+
+}
+
+// headlines
+h1 {
+  font-size: 3em;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.3em;
+  color: #ffffff;
+}
+
+// BUTTONS
+
+.default-btn {
+  width: 200px;
+  height: 40px;
+  background-color: $frenchRasperry;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px 20px 0 20px;
+  padding: 5px 20px;
+  margin-right: 5px;
+}
+
+.mirrored-btn {
+  width: 200px;
+  height: 40px;
+  background-color: $boysenberry;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px 20px 20px 0;
+  padding: 5px 20px;
+  margin-left: 5px;
+}
+
+// PREVIEW SECTION
+
+#screenshot {
+  height: 400px;
+  background-color: $frenchRasperry;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#chatview {
+  height: 400px;
+}
+
+// messageview
+
+.message {
+  border-radius: 20px;
+}
+
+.sender-acronym {
+  width: 50px;
+  height: 50px;
+  border: 3px solid $frenchRasperry;
+  background-color: $elderberry;
+  border-radius: 40px;
+  text-align: center;
+}
+
+#message-one {
+  background-color: $boysenberry;
+}
+
+#message-two {
+  background-color: $frenchRasperry;
+}
+
+#message-three {
+  background-color: $boysenberry;
+}
+
