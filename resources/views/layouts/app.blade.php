@@ -11,18 +11,22 @@
 <body>
 <header>
   <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">
-        <img src="https://cdn.code-lake.com/socialstuff/img/eye.svg" alt="CDN unavailable" id="logo">
-      </a>
-      <a href="#" class="brand-logo">SocialStuff</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="components.html">Components</a></li>
-        <li><a href="team.html">Team</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-      </ul>
-    </div>
+    <section class="container">
+      <div class="nav-wrapper">
+        <section id="brand-logo">
+          <a href="#">
+            <img src="https://cdn.code-lake.com/socialstuff/img/eye.svg" alt="CDN unavailable" id="logo">
+          </a>
+        </section>
+        <a href="#" id="brand-name">Trale</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#">Home</a></li>
+          <li><a href="/components">Components</a></li>
+          <li><a href="/team">Team</a></li>
+          <li><a href="/faq">FAQ</a></li>
+        </ul>
+      </div>
+    </section>
   </nav>
 </header>
 
