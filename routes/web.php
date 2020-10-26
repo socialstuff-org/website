@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::get('/imprint', function () {
     return view('imprint');
 });
+
+Route::get('/faq', function () {
+  return view('faq');
+});
+
