@@ -40,8 +40,8 @@
           <section class="row">
             <section class="col s7 valign-wrapper" id="screenshot">
               <section style="width: 100%">
-                <!-- TODO replace this section with actual image -->
-                this is the screenshot area
+                <!-- TODO replace with correct image -->
+                <img src="https://cdn.code-lake.com/socialstuff/img/screenshot.png" alt="" id="screenshot-img">
               </section>
             </section>
             <section class="col s5" id="chatview">

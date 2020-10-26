@@ -104,9 +104,15 @@ h3 {
 
 #screenshot {
   height: 400px;
-  background-color: $frenchRasperry;
+  // background-color: $frenchRasperry;
   border-radius: 20px;
   text-align: center;
+}
+
+#screenshot-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
 }
 
 #chatview {
