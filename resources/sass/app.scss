@@ -22,6 +22,7 @@ footer {
 $elderberry: #2D142D;
 $frenchRasperry: #C72C41;
 $boysenberry: #801336;
+$coralRed: #EE4540;
 
 // APPLY BACKGROUND COLOR
 .bg-elderberry {
@@ -35,10 +36,21 @@ nav {
   background-color: #2D142D !important;
 }
 
+#brand-logo {
+  height: 64px;
+  width: 64px;
+  float: left;
+}
+
 #logo {
-  height: 40px !important;
+  height: 50px !important;
   width: auto;
-  margin-left: 20px;
+  margin-top: 7px;
+}
+
+#brand-name {
+  margin-left: 10px;
+  font-size: 2em;
 }
 
 // UPPER WRAPPER
@@ -99,12 +111,41 @@ h3 {
 
 #chatview {
   height: 400px;
+  background-color: cornflowerblue;
 }
 
 // messageview
 
+.chat-message-list {
+  width: 90%;
+  margin: 0 auto;
+  grid-area: chat-message-list;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0 20px;
+}
+
+.message-row {
+  margin-bottom: 20px;
+}
+
+.bubble-foreign {
+  background-color: $boysenberry;
+  float: left !important;
+}
+
+.bubble-own {
+  background-color: $coralRed;
+  float: right !important;
+}
+
 .message {
   border-radius: 20px;
+  max-width: 300px;
+}
+
+.message-container {
+  padding: 10px;
 }
 
 .sender-acronym {
@@ -112,19 +153,29 @@ h3 {
   height: 50px;
   border: 3px solid $frenchRasperry;
   background-color: $elderberry;
-  border-radius: 40px;
+  border-radius: 50px;
   text-align: center;
+  line-height: 40px;
+  font-size: 1.25em;
+  float: left;
 }
 
-#message-one {
-  background-color: $boysenberry;
+.feature-icon-large {
+  font-size: 4em !important;
 }
 
-#message-two {
+.feature-btn {
+  line-height: 1.5em;
+}
+
+.learn-more {
+  width: 200px;
+  height: 40px;
   background-color: $frenchRasperry;
-}
-
-#message-three {
-  background-color: $boysenberry;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px 20px 0 20px;
+  padding: 5px 20px;
+  margin-right: 5px;
 }
 

@@ -46,14 +46,12 @@
             </section>
             <section class="col s5" id="chatview">
 
-              <section class="col s10 offset-s1"> <!-- smaller wrapper for spacing -->
-                <div class="row">
-                  <div class="col s2">
-                    <section class="sender-acronym">
-                      PR
-                    </section>
-                  </div>
-                  <div id="message-one" class="message col s10">
+              <section>
+                <section class="sender-acronym">
+                  PR
+                </section>
+                <div class="message bubble-foreign">
+                  <section class="message-container">
                     Hi Phil,
                     <br><br>
                     this is Anthony, duis autem vel eum iriure dolor in hendrerit in vulputate?
@@ -61,38 +59,28 @@
                     Best regards
                     <br>
                     P
-                  </div>
+                  </section>
                 </div>
+              </section>
 
-                <div class="row">
-                  <div class="col s10">
-                    <div id="message-two" class="message col s10">
-                      Hi Anthony,
-                      <br><br>
-                      sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores
-                      et
-                      ea
-                      rebum.
-                    </div>
-                  </div>
-                  <div class="col s2">
-                    <section class="sender-acronym">
-                      PR
-                    </section>
-                  </div>
+              <section>
+                <div class="message bubble-own">
+                  <section class="message-container">
+                    Hi Anthony,
+                    <br><br>
+                    sea takimata sanctus est Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores
+                    et
+                    ea
+                    rebum.
+                  </section>
                 </div>
+              </section>
 
-                <div class="row">
-                  <div class="col s2">
-                    <section class="sender-acronym">
-                      PR
-                    </section>
-                  </div>
-                  <div class="col s10">
-                    <div id="message-three" class="message col s10">
-                      velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
-                    </div>
-                  </div>
+              <section>
+                <div class="message bubble-own">
+                  <section class="message-container">
+                    velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
+                  </section>
                 </div>
               </section>
 
@@ -107,15 +95,14 @@
             <div class="col s4">
               <div class="col s10 offset-s1">
                 <div class="row">
-                  <!-- TODO replace text with icon -->
-                  icon here
+                  <i class="material-icons feature-icon-large">code</i>
                 </div>
                 <div class="row">
                   100% open-source for a secure, transparent and trustworthy environment
                 </div>
                 <div class="row">
-                  <button class="learn-more">
-                    placeholder btn
+                  <button class="default-btn feature-btn">
+                    view source-code
                   </button>
                 </div>
               </div>
@@ -123,15 +110,14 @@
             <div class="col s4">
               <div class="col s10 offset-s1">
                 <div class="row">
-                  <!-- TODO replace text with icon -->
-                  icon here
+                  <i class="material-icons feature-icon-large">lock</i>
                 </div>
                 <div class="row">
                   Fully end-to-end encrypted using elliptic curve and double asymmetric encryption
                 </div>
                 <div class="row">
-                  <button class="learn-more">
-                    placeholder btn
+                  <button class="default-btn feature-btn">
+                    learn more
                   </button>
                 </div>
               </div>
@@ -139,15 +125,15 @@
             <div class="col s4">
               <div class="col s10 offset-s1">
                 <div class="row">
-                  <!-- TODO replace text with icon -->
-                  icon here
+                  <i class="material-icons feature-icon-large">devices</i>
                 </div>
                 <div class="row">
                   Modern and easy-to-use chat clients for Windows, macOS, Linux, iOS and Android.
                 </div>
                 <div class="row">
-                  <button class="learn-more">
-                    placeholder btn
+                  <button class="default-btn feature-btn">
+                    downloads
+                    <i class="material-icons left">get_app</i>
                   </button>
                 </div>
               </div>
