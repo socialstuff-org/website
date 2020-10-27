@@ -21,7 +21,7 @@
         <a href="/" id="brand-name">Trale</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="/">Home</a></li>
-          <li><a href="/components">Components</a></li>
+          <li><a href="/features">Features</a></li>
           <li><a href="/team">Team</a></li>
           <li><a href="/faq">FAQ</a></li>
         </ul>
