@@ -71,6 +71,10 @@ h1 {
   margin-top: 0;
 }
 
+#faq-wrapper h1 {
+  color: #000000;
+}
+
 h3 {
   font-size: 1.3em;
   color: #ffffff;
@@ -87,6 +91,10 @@ h3 {
   border-radius: 20px 20px 0 20px;
   padding: 5px 20px;
   margin-right: 5px;
+}
+
+.default-btn:hover {
+  cursor: pointer;
 }
 
 .mirrored-btn {
@@ -185,3 +193,12 @@ h3 {
   margin-right: 5px;
 }
 
+// DOWNLOADS
+
+.download-section {
+  // background-color: red;
+}
+
+.os-icon {
+  height: 75px;
+}
