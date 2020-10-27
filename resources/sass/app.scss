@@ -71,6 +71,10 @@ h1 {
   margin-top: 0;
 }
 
+#faq-wrapper h1 {
+  color: #000000;
+}
+
 h3 {
   font-size: 1.3em;
   color: #ffffff;
@@ -89,6 +93,10 @@ h3 {
   margin-right: 5px;
 }
 
+.default-btn:hover {
+  cursor: pointer;
+}
+
 .mirrored-btn {
   width: 200px;
   height: 40px;
@@ -104,9 +112,15 @@ h3 {
 
 #screenshot {
   height: 400px;
-  background-color: $frenchRasperry;
+  // background-color: $frenchRasperry;
   border-radius: 20px;
   text-align: center;
+}
+
+#screenshot-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
 }
 
 #chatview {
@@ -179,3 +193,12 @@ h3 {
   margin-right: 5px;
 }
 
+// DOWNLOADS
+
+.download-section {
+  // background-color: red;
+}
+
+.os-icon {
+  height: 75px;
+}

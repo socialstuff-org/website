@@ -40,8 +40,8 @@
           <section class="row">
             <section class="col s7 valign-wrapper" id="screenshot">
               <section style="width: 100%">
-                <!-- TODO replace this section with actual image -->
-                this is the screenshot area
+                <!-- TODO replace with correct image -->
+                <img src="https://cdn.code-lake.com/socialstuff/img/screenshot.png" alt="" id="screenshot-img">
               </section>
             </section>
             <section class="col s5" id="chatview">
@@ -101,7 +101,10 @@
                   100% open-source for a secure, transparent and trustworthy environment
                 </div>
                 <div class="row">
-                  <button class="default-btn feature-btn">
+                  <button
+                    onclick="window.location='{{ url("https://github.com/socialstuff-org") }}'"
+                    class="default-btn feature-btn"
+                  >
                     view source-code
                   </button>
                 </div>
@@ -131,7 +134,10 @@
                   Modern and easy-to-use chat clients for Windows, macOS, Linux, iOS and Android.
                 </div>
                 <div class="row">
-                  <button class="default-btn feature-btn">
+                  <button
+                    onclick="window.location='{{ url("/downloads") }}'"
+                    class="default-btn feature-btn"
+                  >
                     downloads
                     <i class="material-icons left">get_app</i>
                   </button>
