@@ -25,3 +25,8 @@ Route::get('/faq', function () {
   return view('faq');
 });
 
+Route::get('/downloads', function () {
+  return view('downloads');
+});
+
+
