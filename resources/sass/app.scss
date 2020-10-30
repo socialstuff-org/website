@@ -53,6 +53,11 @@ nav {
   font-size: 2em;
 }
 
+// FOOTER
+footer {
+  background-color: $boysenberry !important;
+}
+
 // UPPER WRAPPER
 #upper-wrapper {
   width: 100%;
@@ -125,7 +130,6 @@ h3 {
 
 #chatview {
   height: 400px;
-  background-color: cornflowerblue;
 }
 
 // messageview
@@ -156,6 +160,7 @@ h3 {
 .message {
   border-radius: 20px;
   max-width: 300px;
+  margin-bottom: 10px;
 }
 
 .message-container {

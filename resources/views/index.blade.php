@@ -44,12 +44,10 @@
                 <img src="https://cdn.code-lake.com/socialstuff/img/screenshot.png" alt="" id="screenshot-img">
               </section>
             </section>
+
             <section class="col s5" id="chatview">
 
               <section>
-                <section class="sender-acronym">
-                  PR
-                </section>
                 <div class="message bubble-foreign">
                   <section class="message-container">
                     Hi Phil,
