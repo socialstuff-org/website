@@ -17,12 +17,20 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/imprint', function () {
-    return view('imprint');
+Route::get('/features', function () {
+  return view('features');
+});
+
+Route::get('/team', function () {
+  return view('team');
 });
 
 Route::get('/faq', function () {
   return view('faq');
+});
+
+Route::get('/imprint', function () {
+  return view('imprint');
 });
 
 Route::get('/downloads', function () {
