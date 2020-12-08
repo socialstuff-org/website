@@ -21,10 +21,10 @@
 
         <section id="navigation-buttons" class="center">
           <button class="default-btn">
-            start now
+           Get Trale
           </button>
           <button class="mirrored-btn">
-            how it works
+            How it works
           </button>
         </section>
 
