@@ -29,4 +29,9 @@ Route::get('/downloads', function () {
   return view('downloads');
 });
 
+  Route::get('/donate', function () {
+    return view('donate');
+  });
+
+
 
