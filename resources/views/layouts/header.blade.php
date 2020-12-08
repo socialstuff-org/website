@@ -12,7 +12,8 @@
           <li><a href="/downloads">Get Trale</a></li>
           <li><a href="https://blog.trale.org">Blog</a></li>
           <li><a href="/support">Support</a></li>
-          <li><a href="https://docs.trale.org">Developers</a></li>
+          <!-- TODO https://docs.trale.org -->
+          <li><a href="https://socialstuff-org.github.io">Developers</a></li>
           <li><a href="/careers">Careers</a></li>
           <li><a href="/donate">Donate</a></li>
         </ul>
