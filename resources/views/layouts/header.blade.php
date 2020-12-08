@@ -13,7 +13,7 @@
           <li><a href="https://blog.trale.org">Blog</a></li>
           <li><a href="/support">Support</a></li>
           <li><a href="https://docs.trale.org">Developers</a></li>
-          <li><a href="https://careers.trale.org">Careers</a></li>
+          <li><a href="/careers">Careers</a></li>
           <li><a href="/donate">Donate</a></li>
         </ul>
       </div>
