@@ -19,11 +19,11 @@
       <div class="col l2 s6">
         <h6>Download</h6>
         <ul>
-          <li><a href="https://downloads.trale.org#android" class="grey-text text-lighten-3">Android</a></li>
-          <li><a href="https://downloads.trale.org#ios" class="grey-text text-lighten-3">iPhone & iPad</a></li>
-          <li><a href="https://downloads.trale.org#windows" class="grey-text text-lighten-3">Windows</a></li>
-          <li><a href="https://downloads.trale.org#macos" class="grey-text text-lighten-3">Mac</a></li>
-          <li><a href="https://downloads.trale.org#linux" class="grey-text text-lighten-3">Linux</a></li>
+          <li><a href="/downloads#android" class="grey-text text-lighten-3">Android</a></li>
+          <li><a href="/downloads#ios" class="grey-text text-lighten-3">iPhone & iPad</a></li>
+          <li><a href="/downloads#windows" class="grey-text text-lighten-3">Windows</a></li>
+          <li><a href="/downloads#macos" class="grey-text text-lighten-3">Mac</a></li>
+          <li><a href="/downloads#linux" class="grey-text text-lighten-3">Linux</a></li>
         </ul>
       </div>
       <div class="col l2 s6">
