@@ -9,10 +9,12 @@
         </section>
         <a href="/" id="brand-name">Trale</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="/">Home</a></li>
-          <li><a href="/features">Features</a></li>
-          <li><a href="/team">Team</a></li>
-          <li><a href="/faq">FAQ</a></li>
+          <li><a href="https://downloads.trale.org">Get Trale</a></li>
+          <li><a href="https://blog.trale.org">Blog</a></li>
+          <li><a href="/support">Support</a></li>
+          <li><a href="https://docs.trale.org">Developers</a></li>
+          <li><a href="https://careers.trale.org">Careers</a></li>
+          <li><a href="/donate">Donate</a></li>
         </ul>
       </div>
     </section>
