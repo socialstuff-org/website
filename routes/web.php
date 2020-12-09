@@ -40,3 +40,7 @@
   Route::get('/terms', function () {
     return view('terms');
   });
+
+  Route::get('/support', function () {
+    return view('support');
+  });
