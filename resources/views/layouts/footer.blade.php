@@ -12,7 +12,7 @@
         <ul>
           <li><a href="/donate" class="grey-text text-lighten-3">Donate</a></li>
           <li><a href="/careers" class="grey-text text-lighten-3">Careers</a></li>
-          <li><a href="https://blog.trale.org" class="grey-text text-lighten-3">Blog</a></li>
+          <li><a href="/blog" class="grey-text text-lighten-3">Blog</a></li>
           <li><a href="/terms" class="grey-text text-lighten-3">Terms & Privacy Policy</a></li>
         </ul>
       </div>
