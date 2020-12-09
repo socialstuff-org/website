@@ -44,3 +44,7 @@
   Route::get('/support', function () {
     return view('support');
   });
+
+  Route::get('/blog', function () {
+    return view('blog');
+  });
