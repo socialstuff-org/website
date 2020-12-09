@@ -39,9 +39,9 @@
         <section id="preview">
           <section class="row">
             <section class="col s7 valign-wrapper" id="screenshot">
-              <section style="width: 100%">
-                <!-- TODO replace with correct image -->
-                <img src="https://cdn.code-lake.com/socialstuff/img/screenshot.png" alt="" id="screenshot-img">
+              <section style="width: 100%; background-color: #000000; height: 100%; border-radius: 20px;" class="valign-wrapper">
+                <section class="center" style="width: 100%;">TODO: insert screenshot</section>
+                <!-- <img src="https://cdn.trale.org/img/..." alt="" id="screenshot-img"> -->
               </section>
             </section>
 
