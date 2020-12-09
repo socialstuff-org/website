@@ -37,7 +37,7 @@
       <div class="col l2 s6">
         <h6>Help</h6>
         <ul>
-          <li><a href="https://support.trale.org" class="grey-text text-lighten-3">Support</a></li>
+          <li><a href="/support" class="grey-text text-lighten-3">Support</a></li>
           <li><a href="https://docs.trale.org" class="grey-text text-lighten-3">Documentation</a></li>
         </ul>
       </div>
