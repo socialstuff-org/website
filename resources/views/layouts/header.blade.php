@@ -9,10 +9,13 @@
         </section>
         <a href="/" id="brand-name">Trale</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="/">Home</a></li>
-          <li><a href="/features">Features</a></li>
-          <li><a href="/team">Team</a></li>
-          <li><a href="/faq">FAQ</a></li>
+          <li><a href="/downloads">Get Trale</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/support">Support</a></li>
+          <!-- TODO https://docs.trale.org -->
+          <li><a href="https://socialstuff-org.github.io">Developers</a></li>
+          <li><a href="/careers">Careers</a></li>
+          <li><a href="/donate">Donate</a></li>
         </ul>
       </div>
     </section>
