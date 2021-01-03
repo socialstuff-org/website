@@ -17,6 +17,14 @@
     return view('index');
   });
 
+  Route::get('/features', function () {
+    return view('features');
+  });
+
+  Route::get('/team', function () {
+    return view('team');
+  });
+
   Route::get('/imprint', function () {
     return view('imprint');
   });
